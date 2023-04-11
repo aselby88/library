@@ -16,6 +16,11 @@ fun main(args: Array<String>) {
     val equals = harryPotter1.equals(harryPotter2)
     println(equals)
 
+    var april = User("April Selby", arrayListOf(harryPotter1), arrayListOf())
+    println(april)
+    april.borrowed += harryPotter2
+    print(april)
+
     printObject(harryPotter1)
 }
 
